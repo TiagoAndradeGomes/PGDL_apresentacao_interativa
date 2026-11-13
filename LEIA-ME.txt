@@ -1,17 +1,21 @@
-PGDL · APRESENTAÇÃO INTERATIVA
+PGDL · PREPARAR LISBOA PARA A CHUVA
 
-1. Extrair TODO o ZIP para uma pasta.
-2. Abrir index.html em Chrome ou Edge. Funciona sem Internet e sem instalação.
-3. Explorar o mapa e o menu, ou seguir o percurso com Anterior/Seguinte.
+Abrir index.html num navegador moderno ou utilizar o endereço publicado no GitHub Pages.
 
-TECLADO: setas esquerda/direita ou PageUp/PageDown mudam de capítulo. F ativa o ecrã inteiro. Esc fecha janelas. Os controlos dos vídeos e dos campos mantêm as suas teclas habituais.
-O botão Apresentar aumenta o espaço de leitura. A apresentação adapta-se ao ecrã e mantém a deslocação vertical quando necessária.
-As imagens abrem com ampliação. Os temas de aprofundamento, a galeria e o arquivo das fontes estão acessíveis por interação.
-Os oito vídeos têm controlos nativos, só começam por ação do utilizador e param ao fechar a janela ou mudar de capítulo. A aplicação conserva apenas um leitor.
+NAVEGAÇÃO
+Setas esquerda/direita ou PageUp/PageDown: recuar/avançar.
+Espaço: avançar. Shift + espaço: recuar.
+Home/End: início/fim do percurso. F: ecrã inteiro.
+Esc: fechar janelas de detalhe.
+Percurso: saltar diretamente para qualquer tema.
+Apresentar: reduzir os controlos e permitir avanço com a roda do rato quando o conteúdo cabe no ecrã.
+No telemóvel: botões ou gesto horizontal sobre o texto.
 
-PASTAS: styles, scripts, images, logos, videos e fontes. Não alterar a posição relativa destas pastas.
-Os vídeos são cópias integrais otimizadas em MP4/H.264/AAC. Os originais extraídos permanecem na pasta PGDL_HTML/media do projeto de origem. Os respetivos hashes constam do inventário. Não há excertos cortados nesta versão.
+Os detalhes técnicos são opcionais. As imagens abrem com ampliação. A área Multimédia reúne os oito vídeos e os modelos e imagens utilizados no percurso.
+Os vídeos só iniciam por ação do utilizador e param ao fechar o leitor, mudar de tema ou ocultar a página.
 
-PUBLICAÇÃO: copiar esta pasta para qualquer servidor estático. Não há serviços, fontes, mapas ou bibliotecas externas. Não é necessário servidor local. Em ambientes que bloqueiem file://, executar nesta pasta: python -m http.server 8000 e abrir http://localhost:8000.
+USO LOCAL E PUBLICAÇÃO
+Manter index.html e as pastas styles, scripts, images, logos e videos na mesma estrutura. Não há dependências de serviços externos para apresentar os conteúdos. A ligação municipal no encerramento abre o acompanhamento público do PGDL e requer Internet.
 
-DADOS: valores históricos datados das quatro fontes. Ler Recursos_e_validacoes_pendentes.txt antes de uma atualização factual. O arquivo integra diapositivos ocultos e separa as notas de orador, que exigem confirmação de correspondência.
+CONTEÚDOS
+Atualização: novembro de 2026. Os indicadores mantêm a data de referência. A conclusão da escavação não deve ser confundida com a entrada em serviço de todo o sistema. Os potenciais e objetivos são distintos de resultados medidos.

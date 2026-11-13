@@ -1,19 +1,12 @@
 <!doctype html>
-<html lang="pt-PT">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#41668c"><title>PGDL · Lisboa e a água</title><link rel="stylesheet" href="styles/app.css"></head>
-<body>
-<a class="skip" href="#main">Saltar para o conteúdo</a>
-<header class="topbar">
- <a href="#inicio" class="brand" aria-label="PGDL · Início"><img src="logos/lisboa.jpeg" alt="Câmara Municipal de Lisboa"><img src="logos/pgdl.jpeg" alt="Plano Geral de Drenagem de Lisboa"></a>
- <span class="masthead">Lisboa e a água<small>Plano Geral de Drenagem de Lisboa</small></span>
- <button id="menu-toggle" aria-expanded="false" aria-controls="menu">Capítulos</button><button id="resources">Explorar fontes</button><button id="present" aria-pressed="false">Apresentar</button><button id="fullscreen" aria-label="Ativar ecrã inteiro">Ecrã inteiro</button>
-</header>
-<nav id="menu" aria-label="Capítulos" hidden></nav>
-<main id="main" tabindex="-1"></main>
-<footer class="guide"><button id="prev">Anterior</button><div><span id="chapter-count" aria-live="polite"></span><span class="track"><i id="progress"></i></span></div><button id="next">Começar</button></footer>
-<dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-head"><h2 id="detail-title"></h2><button data-close="detail-dialog" aria-label="Fechar detalhe">Fechar</button></div><div id="detail-body"></div></dialog>
-<dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-head"><h2 id="image-title"></h2><a id="image-download" download>Guardar imagem</a><button data-close="image-dialog">Fechar</button></div><img id="image-full" alt=""><p id="image-source" class="source"></p></dialog>
-<dialog id="video-dialog" aria-labelledby="video-title"><div class="dialog-head"><h2 id="video-title"></h2><button data-close="video-dialog">Fechar</button></div><video id="player" controls playsinline preload="none"></video><p id="video-context"></p><p id="video-status" role="status"></p></dialog>
-<dialog id="resources-dialog" aria-labelledby="resources-title"><div class="dialog-head"><h2 id="resources-title">Fontes e recursos</h2><button data-close="resources-dialog">Fechar</button></div><div class="resource-tabs" role="group" aria-label="Tipo de recurso"><button data-resource="videos" aria-pressed="true">8 vídeos</button><button data-resource="images" aria-pressed="false">Arquivo visual</button><button data-resource="sources" aria-pressed="false">Texto das fontes</button><button data-resource="notes" aria-pressed="false">Análise e validações</button></div><label class="search-label" for="resource-search">Pesquisar nesta área</label><input id="resource-search" type="search" placeholder="Pesquisar…"><div id="resource-body"></div></dialog>
-<script src="scripts/data.js"></script><script src="scripts/app.js"></script>
-</body></html>
+<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#41668c"><meta name="description" content="Uma apresentação do Plano Geral de Drenagem de Lisboa: o desafio das inundações, o sistema hidráulico, a construção e a gestão da informação."><title>PGDL · Preparar Lisboa para a chuva</title><link rel="stylesheet" href="styles/app.css?v=20261113-2"></head><body>
+<a class="skip" href="#stage">Saltar para a apresentação</a>
+<header class="topbar"><a class="brand" href="#inicio" aria-label="Início"><img src="logos/lisboa.jpeg" alt="Câmara Municipal de Lisboa"><img src="logos/pgdl.jpeg" alt="Plano Geral de Drenagem de Lisboa"></a><span class="title-mark">Lisboa e a água<small>Plano Geral de Drenagem de Lisboa</small></span><nav aria-label="Controlos da apresentação"><button id="menu-toggle" aria-controls="journey" aria-expanded="false">Percurso</button><button id="media-open">Multimédia</button><button id="present" aria-pressed="false">Apresentar</button><button id="fullscreen">Ecrã inteiro</button></nav></header>
+<nav id="journey" aria-label="Percurso da apresentação" hidden></nav>
+<main id="stage" class="stage" tabindex="-1"></main>
+<footer class="transport"><button id="prev" aria-label="Passo anterior">Anterior</button><button id="position" aria-label="Abrir o percurso"><span id="act-label"></span><small id="counter"></small><span class="progress"><i id="progress"></i></span></button><button id="next">Começar <span aria-hidden="true">→</span></button></footer>
+<dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-head"><h2 id="detail-title">Detalhe técnico</h2><button data-close="detail-dialog">Fechar</button></div><article id="detail-body"></article></dialog>
+<dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-head"><h2 id="image-title">Imagem</h2><button data-close="image-dialog">Fechar</button></div><img id="image-full" alt=""><div class="image-controls"><button id="image-prev" aria-label="Imagem anterior">←</button><span id="image-counter"></span><button id="image-next" aria-label="Imagem seguinte">→</button></div></dialog>
+<dialog id="video-dialog" aria-labelledby="video-title"><div class="dialog-head"><h2 id="video-title">Vídeo</h2><button data-close="video-dialog">Fechar</button></div><video id="player" controls playsinline preload="none"></video><p id="video-context"></p><p id="video-status" role="status"></p></dialog>
+<dialog id="media-dialog" aria-labelledby="media-title"><div class="dialog-head"><h2 id="media-title">Ver a obra</h2><button data-close="media-dialog">Fechar</button></div><div class="media-tabs"><button data-media="videos" aria-pressed="true">Vídeos</button><button data-media="images" aria-pressed="false">Imagens e modelos</button></div><div id="media-body"></div></dialog>
+<script src="scripts/data.js?v=20261113-2"></script><script src="scripts/app.js?v=20261113-2"></script></body></html>
