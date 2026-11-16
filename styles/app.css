@@ -12,3 +12,5 @@
 @media print{.topbar,.transport,#journey,button,dialog{display:none!important}.stage{height:auto;padding:0;overflow:visible}.scene{display:block;padding:0}.visual{margin-top:30px}.scene h1{font-size:36pt}.lead{font-size:20pt}.points{font-size:16pt}}
 .scene.timeline{margin:0;grid-template-columns:1fr}
 
+
+#detail-dialog{width:min(1180px,96vw)}.technical-slide{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;align-items:center;min-height:440px}.technical-copy{font-size:19px;line-height:1.6}.technical-copy h3{font-size:28px}.technical-copy li{margin-bottom:10px}.technical-visual img{width:100%;max-height:52vh;object-fit:contain}.technical-nav{display:flex;justify-content:space-between;align-items:center;position:sticky;bottom:-1px;background:white;padding:18px 0;border-top:1px solid #d3e0e7;margin-top:20px}.technical-nav button:disabled{opacity:.4;cursor:default}@media(max-width:760px){.technical-slide{grid-template-columns:1fr;min-height:0;gap:15px}.technical-copy{font-size:17px}.technical-visual img{max-height:32vh}.technical-nav{bottom:-18px}}
